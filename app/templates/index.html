@@ -1,0 +1,45 @@
+{%extends 'base.html'%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+</head>
+<body>
+    {% block content%}
+    <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                        <div class="col-md-4" style="margin-top: 50px;">
+                                <div class="col-md-8" style="border: 5px solid tomato;height:120px;border-radius: 50%;margin-left: 40px;">
+                                  <p style="font-size: 100px; color: tomato;line-height: 120px;text-align: center;">+</p>
+                                </div>
+                        </div>
+                                <div class="col-md-10">
+                                    <h1 style="margin-top: 50px;font-size: 70px;"> HealthCare <br> Management <br> System</h1>
+                                </div>
+                </div>
+                <div class="col-md-4"style="">
+                    <ul class="frm">
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Patient Registration Form</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Patient Search</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Billing Form</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Lab Test Request Form</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">New Lab Test Request Form</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Lab Test in Progress</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">View Lab Test Results</a> </li>
+                        <li class="btn btn-info" style="margin: 20px;"> <a href="" style="color: white;">Add/Edit/Delete User</a> </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    {%endblock%}
+    <style>
+    .frm{
+        display: none;
+    }
+    </style>
+</body>
+</html>
